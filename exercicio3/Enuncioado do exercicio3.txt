@@ -1,0 +1,4 @@
+modifique a calculadora do exercicio anterior 
+removendo o botão e fazendo com que qualquer
+alteração de valor em quaquer um dos campos 
+faça a resposta ser calculada automaticamente
