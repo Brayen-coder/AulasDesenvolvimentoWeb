@@ -1,10 +1,12 @@
 //document.querySelector("#"); campos de texto para digitar os numeros
+// A # passa a variavel do documento HTML no caso tenho 5 variaveis(#campo1,#campo2,#operacao,#igual,#resposta)
+
 const campo1 = document.querySelector("#campo1");
 const campo2 = document.querySelector("#campo2");
 const seletor = document.querySelector("#operacao");
 const botao = document.querySelector("#igual");
 let resposta = document.querySelector("#resposta");
-//chama a função para calcular ao clickar o botão da pagina
+//Escuta o evento e click e chama a função para calcular ao clickar o botão da pagina
 botao.addEventListener("click",calcular);
 
 //função para fazer o calculo
